@@ -5,10 +5,11 @@ name = input("Enter Student Name: ")
 usn = input("usn Number: ")
 age = int(input("Enter Age: "))
 course = input("Enter Course: ")
-
+clg=input("Enter College Name: ")
 # Displaying student details
 print("\n--- Student Details ---")
 print(f"Name       : {name}")
 print(f"usn: {usn}")
 print(f"Age        : {age}")
 print(f"Course     : {course}")
+print(f"College Name: {clg}")
