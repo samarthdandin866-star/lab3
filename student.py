@@ -2,13 +2,13 @@
 
 # Taking input from user
 name = input("Enter Student Name: ")
-roll_no = input("Enter Roll Number: ")
+usn = input("usn Number: ")
 age = int(input("Enter Age: "))
 course = input("Enter Course: ")
 
 # Displaying student details
 print("\n--- Student Details ---")
 print(f"Name       : {name}")
-print(f"Roll Number: {roll_no}")
+print(f"usn: {usn}")
 print(f"Age        : {age}")
 print(f"Course     : {course}")
